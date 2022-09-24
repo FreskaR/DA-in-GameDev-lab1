@@ -76,66 +76,21 @@
 ![image](https://user-images.githubusercontent.com/113898917/192099146-1bc35228-8648-432e-ae0c-aa69f19ac676.png)
 
 - В ходе выполнения программы появится график:
-![image](https://user-images.githubusercontent.com/113898917/192099270-eddb41ea-d66d-4a05-9692-4cca0f26e72b.png)
+![image](https://user-images.githubusercontent.com/113898917/192099932-4abd5aef-130d-4f0f-b1da-7c8e50e748a5.png)
 
 
 ## Задание 3
 ### Изучить код на Python и ответить на вопросы:
    
-   import numpy as np
-import matplotlib.pyplot as plt
-
-x = [3, 21, 22, 34, 54, 34, 55, 67, 89, 99]
-x = np.array(x)
-y = [2, 22, 24, 65, 79, 82, 55, 130, 150, 199]
-y = np.array(y)
-
-plt.scatter(x, y)
-
-
-def model(a, b, x):
-    return a * x + b
-
-
-def loss_function(a, b, x, y):
-    num = len(x)
-    prediction = model(a, b, x)
-    return (0.5 / num) * (np.square(prediction - y)).sum()
-
-
-def optimize(a, b, x, y):
-    num = len(x)
-    prediction = model(a, b, x)
-
-    da = (1.0 / num) * ((prediction - y) * x).sum()
-    db = (1.0 / num) * ((prediction - y).sum())
-    a = a - Lr * da
-    b - b - Lr * db
-    return a, b
-
-
-def iterate(a, b, x, y, times):
-    for i in range(times):
-        a, b = optimize(a, b, x, y)
-    return a, b
-
-
-a = np.random.rand(1)
-print(a)
-b = np.random.rand(1)
-print(b)
-Lr = 0.000001
-
-a,b = iterate(a, b, x, y, 10000)
-prediction = model(a, b, x)
-loss = loss_function(a, b, x, y)
-print(a, b, loss)
-plt.scatter(x,y)
-plt.plot(x, prediction)
-
-plt.show()
-
+   
   - Вопрос 1: Должна ли величина loss стремиться к нулю при изменении исходных данных? Приведите пример выполнения кода, который подтверждает ваш ответ.
+    Ответ: величина loss МОЖЕТ стремиться к нулю в двух случаях:
+    1) использовалась линейная функция, например: y = x, a = 1, b = 0
+    ![image](https://user-images.githubusercontent.com/113898917/192100217-e0a10901-91c1-48ba-91fa-d3233c72b057.png)
+    
+    2) значения x и y стремятся к нулю:
+    ![Screenshot_1](https://user-images.githubusercontent.com/113898917/192100473-8d1115b6-0194-4643-bfb8-1c51811db34a.png)
+
 
 
 ## Выводы
