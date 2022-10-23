@@ -1,5 +1,5 @@
 # АНАЛИЗ ДАННЫХ И ИСКУССТВЕННЫЙ ИНТЕЛЛЕКТ [in GameDev]
-Отчет по лабораторной работе #1 выполнил(а):
+Отчет по лабораторной работе #3 выполнил(а):
 - Береснев Егор Максимович
 - РИ210910
 Отметка о выполнении заданий (заполняется студентом):
@@ -38,15 +38,40 @@
 Ознакомиться с основными операторами зыка Python на примере реализации линейной регрессии.
 
 ## Задание 1
-### Написать программы Hello World на Python и Unity:
+### Реализовать систему машинного обучения в связке Python - Google-Sheets – Unity:
 Ход работы:
-1) Код и вывод программы на языке Python:
-![Hello, world](https://user-images.githubusercontent.com/113898917/191014932-474e8c5d-24e3-4828-a898-684c7d4da499.png)
-2) Для Unity:  
-      сначала создаем новый объект, в нем в Assets создаем C# Script и, открыв его, пишем код для вывода Hello, world!
-![1](https://user-images.githubusercontent.com/113898917/191026982-810ce39b-d4f0-407e-96d0-31c9c4b71fd6.png)
-      затем в Unity, добавляем наш скрипт в пустой объект и запускаем
-![Unity 2](https://user-images.githubusercontent.com/113898917/191026989-50ae3a3c-2a19-48cd-a856-fd43d50f105f.png)
+1) В созданный проект Unity добавил ML Agent и его расширения, последовательно добавив .json – файлы:
+![Screenshot_1](https://user-images.githubusercontent.com/113898917/197389845-f35967e7-4232-4d9b-b9c3-953af1d6d8b2.png)
+
+2) Создал плоскость, куб и сферу. Добавил простой C# скрипт-файл и подключила его к сфере:  
+ ![Screenshot_4](https://user-images.githubusercontent.com/113898917/197389883-9f15d758-bd82-4952-bc2f-ce2ec83d51b5.png)
+
+3) RollerAgent добавил компоненты Rigidbody, Decision Requester, Behavior Parameters и настроил их:
+![Screenshot_6](https://user-images.githubusercontent.com/113898917/197389909-3060c253-1b4c-4a90-9444-f7815b08af10.png) 
+![Screenshot_7](https://user-images.githubusercontent.com/113898917/197389912-1c167e7d-3353-4968-a76d-c0e145ff3504.png)
+
+4) Добавил в папку с проектом yaml файл, отвечайющий за обучение модели:
+![Screenshot_8](https://user-images.githubusercontent.com/113898917/197389931-a1cd7adb-17d7-409d-8b0f-8ca23f22fadb.png)
+![Screenshot_11](https://user-images.githubusercontent.com/113898917/197389945-7ebd8423-8b48-41de-a936-8eef348dfad8.png)
+
+5) Запустил работу MlAgents и проверил работу для 1/3/9/36 копий:
+
+
+
+https://user-images.githubusercontent.com/113898917/197390136-bf403a06-9cd5-4d62-8c89-76059c75df4e.mp4
+
+
+
+https://user-images.githubusercontent.com/113898917/197390140-28ddb62c-e74e-4b11-a805-2321ec7c99ba.mp4
+
+
+
+https://user-images.githubusercontent.com/113898917/197390141-faf20e8a-8f13-45db-b1ea-15aaf7aa71a9.mp4
+
+
+
+https://user-images.githubusercontent.com/113898917/197390142-a9210dd1-c69a-4707-9dac-9306f9af59e8.mp4
+
 
 
 ## Задание 2
