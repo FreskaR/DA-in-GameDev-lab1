@@ -57,7 +57,7 @@
 ![OR6](https://user-images.githubusercontent.com/113898917/204293255-64dc411c-c403-4dfb-b02a-9c2a3039d03c.png)
 ![OR8](https://user-images.githubusercontent.com/113898917/204293266-c7a7710c-e9ec-4c5a-9deb-452a806852d4.png)
 ![OR10](https://user-images.githubusercontent.com/113898917/204293273-ee2f2705-d4f5-4e59-9dc7-5beb01180f84.png)
-   3) Установил значения в настройках для операции AND:
+   3) Установил значения в настройках для операции AND:                                                                                     
        ![AND](https://user-images.githubusercontent.com/113898917/204297566-e328c47c-1422-48d8-89c5-649be9e2770e.png)
    
    далее пробовал подставить разные значения эпох:
@@ -68,7 +68,8 @@
 ![AND5-2](https://user-images.githubusercontent.com/113898917/204297734-e84f33ea-ab79-4df4-bbaf-a615f557bcdf.png)
 ![AND6](https://user-images.githubusercontent.com/113898917/204297738-c5f89aeb-0463-4ff8-b2ca-1589d017ac32.png)
 ^ с 1-й по 4-ю кол-во ошибок варьировалось около 2-3-х, на 5 эпохе иногда проходил без ошибок, иногда с ошибками, а начиная с 6 все случаи, когда я проверял, заканчивал без ошибок.
-   4) Установил значения в настройках для операции NAND:
+                                                                                                                                           
+   4) Установил значения в настройках для операции NAND:                                                                                  
 ![NAND](https://user-images.githubusercontent.com/113898917/204307347-4deffd99-06d0-4c54-8e5b-50784a74c43c.png)
 Для данной опервации ошибки пропали только к 7 эпохам, хотя на 3-й в одно из испытаний также выдало удачный 0:
 ![NAND1](https://user-images.githubusercontent.com/113898917/204307537-4022eb38-9740-4153-8bb6-4d5eba631f44.png)
