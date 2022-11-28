@@ -58,7 +58,8 @@
 ![OR8](https://user-images.githubusercontent.com/113898917/204293266-c7a7710c-e9ec-4c5a-9deb-452a806852d4.png)
 ![OR10](https://user-images.githubusercontent.com/113898917/204293273-ee2f2705-d4f5-4e59-9dc7-5beb01180f84.png)
    3) Установил значения в настройках для операции AND:
- ![AND](https://user-images.githubusercontent.com/113898917/204297566-e328c47c-1422-48d8-89c5-649be9e2770e.png)
+       ![AND](https://user-images.githubusercontent.com/113898917/204297566-e328c47c-1422-48d8-89c5-649be9e2770e.png)
+   
    далее пробовал подставить разные значения эпох:
   ![AND1](https://user-images.githubusercontent.com/113898917/204297663-5d22fad4-0c22-4bcf-acf6-f7948a9c7cdc.png)
 ![AND2](https://user-images.githubusercontent.com/113898917/204297685-b696b1a5-cf27-440a-8c20-04e1ebf4bd89.png)
