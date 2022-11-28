@@ -79,6 +79,18 @@
 ![NAND4](https://user-images.githubusercontent.com/113898917/204307582-055d23b0-21d4-4117-a9f4-5f8618fc05ad.png)
 ![NAND6](https://user-images.githubusercontent.com/113898917/204307593-c738b966-15c0-4040-b711-3c08a63589de.png)
 ![NAND7](https://user-images.githubusercontent.com/113898917/204307609-06a980e1-0168-49d0-98f6-c26d17a38976.png)
+   5) Установил значения в настройках для операции XOR:                                                                                 
+   ![XOR](https://user-images.githubusercontent.com/113898917/204310702-6718ac62-f263-4ef9-9360-4c2bb35cac69.png)                           
+   Данная операция начала заканчиваться без ошибок только к примерно 9 итерациям
+![XOR1](https://user-images.githubusercontent.com/113898917/204310890-9d7a15e6-36a2-495c-a465-a15812c2521b.png)
+![XOR3](https://user-images.githubusercontent.com/113898917/204310897-0e27be36-db5b-45db-a955-31015e6ce5e3.png)
+![XOR5](https://user-images.githubusercontent.com/113898917/204310903-2261c379-f474-4d42-b761-05c9bad5fe8b.png)
+![XOR7](https://user-images.githubusercontent.com/113898917/204310911-3d4b65e3-b909-4391-90d9-ca5d6dd492b5.png)
+![XOR9](https://user-images.githubusercontent.com/113898917/204310920-982db6be-4072-4dcd-bd3f-9c699879ceb3.png)
+
+
+## Задание 2
+### Построить график с анализом кол-ва ошибок у каждой операции:
 
 ## Задание 3
 ### Изучить код на Python и ответить на вопросы:
