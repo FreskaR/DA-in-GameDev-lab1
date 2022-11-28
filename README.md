@@ -94,10 +94,42 @@
    ![Графики кол-ва ошибок](https://user-images.githubusercontent.com/113898917/204315273-7691b0b9-6441-4917-9145-58b32387f3e3.png)
 
 ## Задание 3
-### :
-   
+### Построить визуальную модель работы перцептрона на сцене Unity:
+   Для визуальной модели я выбрал операцию XOR, так как она показалась мне самой интересной, для этого я воспользовался таким свойством объектов как триггер:
+   так, когда один кубик падает на другой, он меняет свой цвет в зависимости от цвета другого куба:
+      
+      using System.Collections;     
+      using System.Collections.Generic;
+      using UnityEngine;
+      public class PerceptronParody : MonoBehaviour
+      {
+          private void OnTriggerEnter(Collider other)
+          {
+              if (other.gameObject.GetComponent<Renderer>().material.color == Color.green && this.gameObject.GetComponent<Renderer>().material.color == Color.magenta)
+              {
+                  other.gameObject.GetComponent<Renderer>().material.color = Color.magenta;
+                  this.gameObject.GetComponent<Renderer>().material.color = Color.magenta;
+              }
+              else if (other.gameObject.GetComponent<Renderer>().material.color == Color.magenta && this.gameObject.GetComponent<Renderer>().material.color == Color.green)
+              {
+                  other.gameObject.GetComponent<Renderer>().material.color = Color.magenta;
+                  this.gameObject.GetComponent<Renderer>().material.color = Color.magenta;
+              }
+              else
+              {
+                  other.gameObject.GetComponent<Renderer>().material.color = Color.green;
+                  this.gameObject.GetComponent<Renderer>().material.color = Color.green;
+              }
+          }
+      }
+ 
+
    
  
+
+https://user-images.githubusercontent.com/113898917/204329381-aa926fc5-2a7f-4f90-8ac6-06671b0bb4c7.mp4
+
+
 
 ## Выводы
    1. Установил и настроил нужное для дальнейшего обучения ПО: unity, VS Code, Pycharm
