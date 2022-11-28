@@ -41,10 +41,10 @@
    ### Ход работы:
    1) Скачал файл со скриптом перцептрона и добавил его к GameObject'у в новом 2d проекте в Unity:   
 ![Adding Perceptron](https://user-images.githubusercontent.com/113898917/204292176-f64ca585-04f5-4d2d-a00f-4dcab58c2e53.png)
-      2) Установил значения, подходящие к логической операции OR в настройках перцептрона: 
+   2) Установил значения, подходящие к логической операции OR в настройках перцептрона: 
 ![OR](https://user-images.githubusercontent.com/113898917/204292304-6faeda14-947e-4459-b102-cb32b688ac08.png)
       
-   3) Попробовал запустить его, установив значение для Train: 1, 2, 3, 4, 5, 6, 8, 10:
+   2.1) Попробовал запустить его, установив значение для Train: 1, 2, 3, 4, 5, 6, 8, 10:
 ![OR1](https://user-images.githubusercontent.com/113898917/204292796-52ba9f6c-c31b-4975-8d47-d5d185232b35.png)
  ^ для 1 эпохи на выходе было 3 ошибки.
 ![OR2](https://user-images.githubusercontent.com/113898917/204292900-362d32e1-fd31-44bf-bc48-176335f35191.png)
@@ -57,7 +57,17 @@
 ![OR6](https://user-images.githubusercontent.com/113898917/204293255-64dc411c-c403-4dfb-b02a-9c2a3039d03c.png)
 ![OR8](https://user-images.githubusercontent.com/113898917/204293266-c7a7710c-e9ec-4c5a-9deb-452a806852d4.png)
 ![OR10](https://user-images.githubusercontent.com/113898917/204293273-ee2f2705-d4f5-4e59-9dc7-5beb01180f84.png)
-
+   3) Установил значения в настройках для операции AND:
+ ![AND](https://user-images.githubusercontent.com/113898917/204297566-e328c47c-1422-48d8-89c5-649be9e2770e.png)
+   далее пробовал подставить разные значения эпох:
+  ![AND1](https://user-images.githubusercontent.com/113898917/204297663-5d22fad4-0c22-4bcf-acf6-f7948a9c7cdc.png)
+![AND2](https://user-images.githubusercontent.com/113898917/204297685-b696b1a5-cf27-440a-8c20-04e1ebf4bd89.png)
+![AND3](https://user-images.githubusercontent.com/113898917/204297692-0cdb566d-e603-428f-ac61-67e2dc58d67f.png)
+![AND5-1](https://user-images.githubusercontent.com/113898917/204297714-8e146c34-abff-443f-985d-44afe838adac.png)
+![AND5-2](https://user-images.githubusercontent.com/113898917/204297734-e84f33ea-ab79-4df4-bbaf-a615f557bcdf.png)
+![AND6](https://user-images.githubusercontent.com/113898917/204297738-c5f89aeb-0463-4ff8-b2ca-1589d017ac32.png)
+^ с 1-й по 4-ю кол-во ошибок варьировалось около 2-3-х, на 5 эпохе иногда проходил без ошибок, иногда с ошибками, а начиная с 6 все случаи, когда я проверял, заканчивал без ошибок.
+   4) Установил значения в настройках для операции NAND:
 ### В разделе "Ход работы" пошагово выполнить каждый пункт с описанием и примеров реализации задачи по теме лабораторной работы.
 - Произвел подготовку данных для работы с алгоритмом линейной регрессии
 ![image](https://user-images.githubusercontent.com/113898917/192098163-453fc43c-ea8e-44df-9c07-747142dd7134.png)
