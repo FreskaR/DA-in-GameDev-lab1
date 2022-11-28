@@ -46,7 +46,7 @@
       3) Попробовал запустить его, установив значение для Train: 1, 2, 3, 4, 5, 6, 8, 10:
 ![OR1](https://user-images.githubusercontent.com/113898917/204292796-52ba9f6c-c31b-4975-8d47-d5d185232b35.png)
  ^ для 1 эпохи на выходе было 3 ошибки.
-## Задание 2![OR2](https://user-images.githubusercontent.com/113898917/204292900-362d32e1-fd31-44bf-bc48-176335f35191.png)
+![OR2](https://user-images.githubusercontent.com/113898917/204292900-362d32e1-fd31-44bf-bc48-176335f35191.png)
 ^ для 2 эпох сначала 1-а ошибка, затем 2-е.
 ![OR3](https://user-images.githubusercontent.com/113898917/204293060-5dbf0f9c-3519-4c9c-b401-60d6f68cc3e1.png)
 ^ на третьей эпохе в конце была всего 1 ошибка
